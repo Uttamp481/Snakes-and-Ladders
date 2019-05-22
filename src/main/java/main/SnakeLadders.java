@@ -83,7 +83,7 @@ public class SnakeLadders{
 			if(gameOver(place)) {
 				break;
 			}
-
+            sc.close();
 		}
 		System.out.println("you won!");
 	}
